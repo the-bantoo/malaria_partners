@@ -1,21 +1,126 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "creation": "2024-07-03 14:36:13.062059",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_kik4"
+  "personal_details_section",
+  "first_name",
+  "gender",
+  "nrcid",
+  "column_break_mmzf",
+  "last_name",
+  "full_name",
+  "section_break_xxjm",
+  "club_name",
+  "club_type",
+  "column_break_uabp",
+  "position"
  ],
  "fields": [
   {
-   "fieldname": "section_break_kik4",
-   "fieldtype": "Section Break"
+   "allow_in_quick_entry": 1,
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_mmzf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "section_break_xxjm",
+   "fieldtype": "Section Break",
+   "label": "Club Details"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "club_name",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Club Name",
+   "options": "Club",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_uabp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "position",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Position",
+   "options": "Volunteer Position Type",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "personal_details_section",
+   "fieldtype": "Section Break",
+   "label": "Personal Details"
+  },
+  {
+   "fieldname": "nrcid",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_standard_filter": 1,
+   "label": "NRC/ID",
+   "unique": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Full Name",
+   "print_hide": 1,
+   "read_only": 1,
+   "report_hide": 1
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Gender",
+   "options": "Male\nFemale",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "club_name.club_type",
+   "fieldname": "club_type",
+   "fieldtype": "Data",
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Club Type",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-03 14:36:13.062059",
+ "modified": "2024-07-03 16:52:11.353624",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Volunteer Profile",
@@ -34,7 +139,11 @@
    "write": 1
   }
  ],
+ "show_preview_popup": 1,
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "full_name",
+ "track_changes": 1
 }

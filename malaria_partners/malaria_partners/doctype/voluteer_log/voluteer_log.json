@@ -72,12 +72,13 @@
   {
    "fieldname": "volunteered_time_section",
    "fieldtype": "Section Break",
-   "label": "Volunteered Time"
+   "label": "Voluntary Activity Session"
   },
   {
+   "description": "Total unique days spent on the activity",
    "fieldname": "days_of_voluntary_session",
    "fieldtype": "Int",
-   "label": "Days of Voluntary Session",
+   "label": "Days Spent",
    "reqd": 1
   },
   {
@@ -87,7 +88,7 @@
   {
    "fieldname": "time_spent",
    "fieldtype": "Duration",
-   "label": "Time Spent",
+   "label": "Total Time Spent",
    "reqd": 1
   },
   {
@@ -148,7 +149,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-03 17:58:18.245088",
+ "modified": "2024-07-03 18:11:58.114050",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Voluteer Log",

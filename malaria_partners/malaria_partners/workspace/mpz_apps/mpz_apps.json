@@ -1,0 +1,49 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"wxDSjFiGyQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">MPZ Specific Applications</span>\",\"col\":12}},{\"id\":\"jRtK5kPoDA\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteers\",\"col\":4}}]",
+ "creation": "2024-07-03 14:32:48.370989",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "non-profit",
+ "idx": 0,
+ "indicator_color": "orange",
+ "is_hidden": 0,
+ "label": "MPZ Apps",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteers",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Job Requisition",
+   "link_count": 0,
+   "link_to": "Job Requisition",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-07-03 14:34:37.073070",
+ "modified_by": "Administrator",
+ "module": "Malaria Partners",
+ "name": "MPZ Apps",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [],
+ "title": "MPZ Apps"
+}

@@ -7,7 +7,8 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "district"
+  "district",
+  "column_break_auvm"
  ],
  "fields": [
   {
@@ -20,11 +21,15 @@
    "label": "District",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "fieldname": "column_break_auvm",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-03 15:23:06.324455",
+ "modified": "2024-07-04 12:03:35.198072",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Activity District",

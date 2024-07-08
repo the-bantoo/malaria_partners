@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class VoluteerLog(Document):
+class VolunteerLog(Document):
 	pass

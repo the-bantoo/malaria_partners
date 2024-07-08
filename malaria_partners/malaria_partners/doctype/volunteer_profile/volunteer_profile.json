@@ -2,6 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "field:full_name",
  "creation": "2024-07-03 14:36:13.062059",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -96,7 +97,8 @@
    "label": "Full Name",
    "print_hide": 1,
    "read_only": 1,
-   "report_hide": 1
+   "report_hide": 1,
+   "unique": 1
   },
   {
    "fieldname": "gender",
@@ -120,10 +122,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-03 16:52:11.353624",
+ "modified": "2024-07-05 08:48:35.787456",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Volunteer Profile",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

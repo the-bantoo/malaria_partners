@@ -3,6 +3,6 @@
 
 // frappe.ui.form.on("Activity District", {
 // 	refresh(frm) {
-
+//      
 // 	},
 // });

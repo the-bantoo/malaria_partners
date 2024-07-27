@@ -9,6 +9,7 @@
  "field_order": [
   "section_break_eg9l",
   "volunteer",
+  "full_name",
   "column_break_qgmz",
   "district_supported",
   "column_break_mrte",
@@ -25,8 +26,9 @@
   "start_date",
   "end_date",
   "column_break_fzgi",
-  "days_of_voluntary_session",
+  "days_spent",
   "time_spent",
+  "manually_set_time_spent",
   "section_break_uzax",
   "amended_from"
  ],
@@ -150,16 +152,11 @@
    "fieldtype": "Column Break"
   },
   {
-   "description": "Total unique days spent on the activity",
-   "fieldname": "days_of_voluntary_session",
-   "fieldtype": "Int",
-   "label": "Days Spent",
-   "reqd": 1
-  },
-  {
    "fieldname": "time_spent",
    "fieldtype": "Duration",
    "label": "Total Time Spent",
+   "read_only": 1,
+   "read_only_depends_on": "eval: doc.manually_set_time_spent === 0;",
    "reqd": 1
   },
   {
@@ -175,13 +172,34 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fetch_from": "volunteer.full_name",
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Full Name",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "manually_set_time_spent",
+   "fieldtype": "Check",
+   "label": "Manually Set Time Spent"
+  },
+  {
+   "description": "Total unique days spent on the activity",
+   "fieldname": "days_spent",
+   "fieldtype": "Int",
+   "label": "Days Spent",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-27 14:25:49.666110",
+ "modified": "2024-07-27 18:45:32.357488",
  "modified_by": "Administrator",
  "module": "Volunteer Management",
  "name": "Volunteer Log",
@@ -202,9 +220,11 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "full_name",
  "track_changes": 1,
  "track_seen": 1,
  "track_views": 1

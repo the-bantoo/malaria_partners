@@ -1,15 +1,6 @@
 {
- "charts": [
-  {
-   "chart_name": "Number of Volunteers",
-   "label": "Volunteers Engaged"
-  },
-  {
-   "chart_name": "Total Hours",
-   "label": "Volunteered Hours"
-  }
- ],
- "content": "[{\"id\":\"EZQ1_WHVhL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Volunteers</span>\",\"col\":12}},{\"id\":\"EeNM_3RHRW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Volunteers\",\"col\":3}},{\"id\":\"52SeHF-RNc\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL CLUBS\",\"col\":3}},{\"id\":\"u0EKI89mmO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZE0uxjpmTw\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Number of Volunteers Engaged\",\"col\":6}},{\"id\":\"rVmHgGE5TZ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Total Hours Volunteered\",\"col\":6}},{\"id\":\"scl2uKqQk2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4sShEi4b7Z\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteer Actions\",\"col\":4}},{\"id\":\"f7w9MoLn2F\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteers\",\"col\":4}},{\"id\":\"QSQG8ZOxpz\",\"type\":\"card\",\"data\":{\"card_name\":\"Clubs\",\"col\":4}},{\"id\":\"t8nH1ufwjc\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AFhPo9Xfny\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "charts": [],
+ "content": "[{\"id\":\"EZQ1_WHVhL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Volunteers</span>\",\"col\":12}},{\"id\":\"EeNM_3RHRW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Volunteers\",\"col\":3}},{\"id\":\"u0EKI89mmO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"scl2uKqQk2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4sShEi4b7Z\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteer Actions\",\"col\":4}},{\"id\":\"f7w9MoLn2F\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteers\",\"col\":4}},{\"id\":\"QSQG8ZOxpz\",\"type\":\"card\",\"data\":{\"card_name\":\"Clubs\",\"col\":4}},{\"id\":\"t8nH1ufwjc\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AFhPo9Xfny\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"P3tGo32AiT\",\"type\":\"card\",\"data\":{\"card_name\":\"Management\",\"col\":4}}]",
  "creation": "2024-07-03 14:35:35.354097",
  "custom_blocks": [],
  "docstatus": 0,
@@ -137,9 +128,28 @@
    "link_type": "Report",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Management",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteer Settings",
+   "link_count": 0,
+   "link_to": "Volunteer Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2024-07-27 14:41:01.047218",
+ "modified": "2024-07-27 16:17:44.702017",
  "modified_by": "Administrator",
  "module": "Volunteer Management",
  "name": "Volunteers",
@@ -147,10 +157,6 @@
   {
    "label": "Total Volunteers",
    "number_card_name": "Total Volunteers"
-  },
-  {
-   "label": "Total Clubs",
-   "number_card_name": "Total Clubs"
   }
  ],
  "owner": "Administrator",

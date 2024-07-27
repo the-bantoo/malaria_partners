@@ -65,6 +65,8 @@ def get_data(filters):
                 {group_by_sql}
                 ORDER BY vl.start_date
             """
+    
+    frappe.errprint(query)
     data = frappe.db.sql(query, as_dict=1)
 
     return data

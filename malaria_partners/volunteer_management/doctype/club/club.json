@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:club_name",
+ "creation": "2024-07-03 14:51:52.488716",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "club_name",
+  "column_break_eejp",
+  "club_type",
+  "section_break_gwux",
+  "physical_address"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "club_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Club Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_eejp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "club_type",
+   "fieldtype": "Link",
+   "label": "Club Type",
+   "options": "Club Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_gwux",
+   "fieldtype": "Section Break",
+   "label": "Contacts"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "physical_address",
+   "fieldtype": "Small Text",
+   "in_preview": 1,
+   "label": "Physical Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-27 14:25:52.255339",
+ "modified_by": "Administrator",
+ "module": "Volunteer Management",
+ "name": "Club",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "club_name, physical_address",
+ "show_name_in_global_search": 1,
+ "show_preview_popup": 1,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "club_name",
+ "track_changes": 1
+}

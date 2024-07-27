@@ -37,30 +37,11 @@
    "label": "Volunteer Profile"
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Volunteer Log",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
-  },
-  {
    "fieldname": "volunteer",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Volunteer",
    "options": "Volunteer Profile",
-   "reqd": 1
-  },
-  {
-   "description": "Selects from project tasks",
-   "fieldname": "activity_supported",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Project Activity Supported",
-   "options": "Task",
    "reqd": 1
   },
   {
@@ -76,30 +57,26 @@
    "reqd": 1
   },
   {
-   "fieldname": "volunteered_time_section",
-   "fieldtype": "Section Break",
-   "label": "Voluntary Activity Session"
-  },
-  {
-   "description": "Total unique days spent on the activity",
-   "fieldname": "days_of_voluntary_session",
-   "fieldtype": "Int",
-   "label": "Days Spent",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_fzgi",
+   "fieldname": "column_break_mrte",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "time_spent",
-   "fieldtype": "Duration",
-   "label": "Total Time Spent",
+   "description": "Selects from project tasks",
+   "fieldname": "activity_supported",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Project Activity Supported",
+   "options": "Task",
    "reqd": 1
   },
   {
-   "fieldname": "section_break_uzax",
-   "fieldtype": "Section Break"
+   "fetch_from": "activity_supported.project",
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "no_copy": 1,
+   "options": "Project",
+   "read_only": 1
   },
   {
    "fieldname": "section_break_efto",
@@ -111,6 +88,14 @@
    "fieldname": "gender",
    "fieldtype": "Data",
    "label": "Gender",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fetch_from": "volunteer.position",
+   "fieldname": "club_position",
+   "fieldtype": "Data",
+   "label": "Club Position",
    "no_copy": 1,
    "read_only": 1
   },
@@ -135,14 +120,6 @@
    "read_only": 1
   },
   {
-   "fetch_from": "volunteer.position",
-   "fieldname": "club_position",
-   "fieldtype": "Data",
-   "label": "Club Position",
-   "no_copy": 1,
-   "read_only": 1
-  },
-  {
    "fetch_from": "volunteer.club_type",
    "fieldname": "club_type",
    "fieldtype": "Link",
@@ -150,6 +127,11 @@
    "no_copy": 1,
    "options": "Club Type",
    "read_only": 1
+  },
+  {
+   "fieldname": "volunteered_time_section",
+   "fieldtype": "Section Break",
+   "label": "Voluntary Activity Session"
   },
   {
    "fieldname": "start_date",
@@ -164,26 +146,44 @@
    "reqd": 1
   },
   {
-   "fetch_from": "activity_supported.project",
-   "fieldname": "project",
-   "fieldtype": "Link",
-   "label": "Project",
-   "no_copy": 1,
-   "options": "Project",
-   "read_only": 1
+   "fieldname": "column_break_fzgi",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "column_break_mrte",
-   "fieldtype": "Column Break"
+   "description": "Total unique days spent on the activity",
+   "fieldname": "days_of_voluntary_session",
+   "fieldtype": "Int",
+   "label": "Days Spent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "time_spent",
+   "fieldtype": "Duration",
+   "label": "Total Time Spent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_uzax",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Volunteer Log",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-27 14:18:15.933373",
+ "modified": "2024-07-27 14:25:49.666110",
  "modified_by": "Administrator",
- "module": "Malaria Partners",
+ "module": "Volunteer Management",
  "name": "Volunteer Log",
  "naming_rule": "Expression",
  "owner": "Administrator",

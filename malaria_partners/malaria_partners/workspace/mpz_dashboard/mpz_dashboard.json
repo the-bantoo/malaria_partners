@@ -1,15 +1,6 @@
 {
- "charts": [
-  {
-   "chart_name": "Total Hours Per Month",
-   "label": "TOTAL HOURS PER PERIOD"
-  },
-  {
-   "chart_name": "Number of Volunteers Per Period",
-   "label": "NUMBER OF VOLUNTEERS PER MONTH"
-  }
- ],
- "content": "[{\"id\":\"wxDSjFiGyQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboard</span>\",\"col\":12}},{\"id\":\"ztcghdKZWL\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL CLUBS\",\"col\":4}},{\"id\":\"_Z9EwuG4uR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL VOLUNTEERS\",\"col\":4}},{\"id\":\"IlYi3r-Rh4\",\"type\":\"chart\",\"data\":{\"chart_name\":\"TOTAL HOURS PER PERIOD\",\"col\":12}},{\"id\":\"1LDZi6qG4h\",\"type\":\"chart\",\"data\":{\"chart_name\":\"NUMBER OF VOLUNTEERS PER MONTH\",\"col\":12}}]",
+ "charts": [],
+ "content": "[{\"id\":\"wxDSjFiGyQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboard</span>\",\"col\":12}},{\"id\":\"_Z9EwuG4uR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL VOLUNTEERS\",\"col\":4}}]",
  "creation": "2024-07-03 14:32:48.370989",
  "custom_blocks": [],
  "docstatus": 0,
@@ -22,15 +13,11 @@
  "is_hidden": 0,
  "label": "MPZ Dashboard",
  "links": [],
- "modified": "2024-07-04 12:44:20.919820",
+ "modified": "2024-07-27 11:47:31.230241",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "MPZ Dashboard",
  "number_cards": [
-  {
-   "label": "TOTAL CLUBS",
-   "number_card_name": "Total Clubs"
-  },
   {
    "label": "TOTAL VOLUNTEERS",
    "number_card_name": "Total Volunteers"

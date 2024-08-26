@@ -1,6 +1,11 @@
 {
- "charts": [],
- "content": "[{\"id\":\"EZQ1_WHVhL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Volunteers</span>\",\"col\":12}},{\"id\":\"EeNM_3RHRW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Volunteers\",\"col\":3}},{\"id\":\"u0EKI89mmO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"scl2uKqQk2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4sShEi4b7Z\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteer Actions\",\"col\":4}},{\"id\":\"f7w9MoLn2F\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteers\",\"col\":4}},{\"id\":\"QSQG8ZOxpz\",\"type\":\"card\",\"data\":{\"card_name\":\"Clubs\",\"col\":4}},{\"id\":\"t8nH1ufwjc\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AFhPo9Xfny\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"P3tGo32AiT\",\"type\":\"card\",\"data\":{\"card_name\":\"Management\",\"col\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Number of Volunteers",
+   "label": "Number of Volunteers"
+  }
+ ],
+ "content": "[{\"id\":\"EZQ1_WHVhL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Volunteers</span>\",\"col\":12}},{\"id\":\"k3htIrvO_H\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Number of Volunteers\",\"col\":7}},{\"id\":\"u0EKI89mmO\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"scl2uKqQk2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4sShEi4b7Z\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteer Actions\",\"col\":4}},{\"id\":\"f7w9MoLn2F\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteers\",\"col\":4}},{\"id\":\"QSQG8ZOxpz\",\"type\":\"card\",\"data\":{\"card_name\":\"Clubs\",\"col\":4}},{\"id\":\"t8nH1ufwjc\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AFhPo9Xfny\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"P3tGo32AiT\",\"type\":\"card\",\"data\":{\"card_name\":\"Management\",\"col\":4}}]",
  "creation": "2024-07-03 14:35:35.354097",
  "custom_blocks": [],
  "docstatus": 0,
@@ -149,16 +154,11 @@
    "type": "Link"
   }
  ],
- "modified": "2024-07-27 16:17:44.702017",
+ "modified": "2024-07-31 09:08:24.748148",
  "modified_by": "Administrator",
  "module": "Volunteer Management",
  "name": "Volunteers",
- "number_cards": [
-  {
-   "label": "Total Volunteers",
-   "number_card_name": "Total Volunteers"
-  }
- ],
+ "number_cards": [],
  "owner": "Administrator",
  "parent_page": "MPZ Dashboard",
  "public": 1,

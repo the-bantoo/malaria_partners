@@ -1,0 +1,23 @@
+{
+ "creation": "2024-08-26 17:53:15.850189",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "dynamic_filters_json": "{}",
+ "filters_json": "{}",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Total Volunteer Days",
+ "modified": "2024-08-26 17:53:15.850189",
+ "modified_by": "Administrator",
+ "module": "Malaria Partners",
+ "name": "Total Volunteer Days",
+ "owner": "Administrator",
+ "report_field": "days_spent",
+ "report_function": "Sum",
+ "report_name": "Total Volunteer Hours",
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Daily",
+ "type": "Report"
+}

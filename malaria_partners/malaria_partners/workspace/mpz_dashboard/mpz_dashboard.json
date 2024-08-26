@@ -9,7 +9,7 @@
    "label": "Payment Approvals This Week"
   }
  ],
- "content": "[{\"id\":\"wxDSjFiGyQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboard</span>\",\"col\":12}},{\"id\":\"f_7JXHSvCR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ongoing Project Tasks/Activities\",\"col\":3}},{\"id\":\"_Z9EwuG4uR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL VOLUNTEERS\",\"col\":3}},{\"id\":\"ReES9EmEmI\",\"type\":\"spacer\",\"data\":{\"col\":3}},{\"id\":\"aqXErW1AMX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Registered Users & Employees\",\"col\":3}},{\"id\":\"Fvuo1MFVDE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"aJX8K8Elxp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Payment Approvals This Week\",\"col\":6}},{\"id\":\"ZUiZ4V_0H3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Supported Communities\",\"col\":6}},{\"id\":\"L8ovYr0Uil\",\"type\":\"paragraph\",\"data\":{\"text\":\"Quick Actions\",\"col\":12}},{\"id\":\"wHWe4LHbzs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Payment Requisition\",\"col\":3}},{\"id\":\"fQwdAtfDEn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Task\",\"col\":3}},{\"id\":\"EOWQCbvZMt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Manage Volunteers\",\"col\":3}}]",
+ "content": "[{\"id\":\"wxDSjFiGyQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboard</span>\",\"col\":12}},{\"id\":\"f_7JXHSvCR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ongoing Project Tasks/Activities\",\"col\":6}},{\"id\":\"_Z9EwuG4uR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL VOLUNTEERS\",\"col\":3}},{\"id\":\"aqXErW1AMX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Registered Users & Employees\",\"col\":3}},{\"id\":\"Fvuo1MFVDE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"aJX8K8Elxp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Payment Approvals This Week\",\"col\":6}},{\"id\":\"ZUiZ4V_0H3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Supported Communities\",\"col\":6}},{\"id\":\"L8ovYr0Uil\",\"type\":\"paragraph\",\"data\":{\"text\":\"Quick Actions\",\"col\":12}},{\"id\":\"wHWe4LHbzs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Payment Requisition\",\"col\":6}},{\"id\":\"fQwdAtfDEn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Board\",\"col\":3}},{\"id\":\"EOWQCbvZMt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Manage Volunteers\",\"col\":3}},{\"id\":\"ReES9EmEmI\",\"type\":\"spacer\",\"data\":{\"col\":3}}]",
  "creation": "2024-07-03 14:32:48.370989",
  "custom_blocks": [],
  "docstatus": 0,
@@ -22,7 +22,7 @@
  "is_hidden": 0,
  "label": "MPZ Dashboard",
  "links": [],
- "modified": "2024-08-26 18:12:22.311153",
+ "modified": "2024-08-26 20:36:46.031292",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "MPZ Dashboard",
@@ -48,9 +48,10 @@
  "sequence_id": 2.0,
  "shortcuts": [
   {
-   "color": "Blue",
-   "doc_view": "List",
-   "label": "Project Task",
+   "color": "Red",
+   "doc_view": "Kanban",
+   "kanban_board": "Project Board",
+   "label": "Project Board",
    "link_to": "Task",
    "stats_filter": "[]",
    "type": "DocType"

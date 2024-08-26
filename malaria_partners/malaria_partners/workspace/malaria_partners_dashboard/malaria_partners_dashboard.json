@@ -1,0 +1,80 @@
+{
+ "charts": [
+  {
+   "chart_name": "Supported Communities",
+   "label": "Volunteer Supported Communities"
+  },
+  {
+   "chart_name": "Payment Requisition Process Rate",
+   "label": "Payment Approvals This Week"
+  }
+ ],
+ "content": "[{\"id\":\"tjRVtRE27l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Projects\",\"col\":3}},{\"id\":\"f_7JXHSvCR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ongoing Project Activities\",\"col\":3}},{\"id\":\"_Z9EwuG4uR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL VOLUNTEERS\",\"col\":3}},{\"id\":\"aqXErW1AMX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Registered Users & Employees\",\"col\":3}},{\"id\":\"Fvuo1MFVDE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"aJX8K8Elxp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Payment Approvals This Week\",\"col\":6}},{\"id\":\"ZUiZ4V_0H3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Supported Communities\",\"col\":6}},{\"id\":\"L8ovYr0Uil\",\"type\":\"paragraph\",\"data\":{\"text\":\"Quick Actions\",\"col\":12}},{\"id\":\"wHWe4LHbzs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Payment Requisition\",\"col\":3}},{\"id\":\"ReES9EmEmI\",\"type\":\"spacer\",\"data\":{\"col\":3}},{\"id\":\"EOWQCbvZMt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Manage Volunteers\",\"col\":3}},{\"id\":\"fQwdAtfDEn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Board\",\"col\":3}}]",
+ "creation": "2024-07-03 14:32:48.370989",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "non-profit",
+ "idx": 2,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Malaria Partners Dashboard",
+ "links": [],
+ "modified": "2024-08-26 23:57:38.956366",
+ "modified_by": "Administrator",
+ "module": "Malaria Partners",
+ "name": "Malaria Partners Dashboard",
+ "number_cards": [
+  {
+   "label": "Active Projects",
+   "number_card_name": "Running Projects"
+  },
+  {
+   "label": "Ongoing Project Activities",
+   "number_card_name": "Ongoing Project Activities"
+  },
+  {
+   "label": "TOTAL VOLUNTEERS",
+   "number_card_name": "Total Volunteers"
+  },
+  {
+   "label": "Registered Users & Employees",
+   "number_card_name": "Users"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "Kanban",
+   "kanban_board": "Project Board",
+   "label": "Project Board",
+   "link_to": "Task",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Manage Volunteers",
+   "type": "URL",
+   "url": "/app/volunteers"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "New",
+   "label": "New Payment Requisition",
+   "link_to": "Payment Requisition",
+   "stats_filter": "[[\"Payment Requisition\",\"workflow_state\",\"not in\",[\"cancelled\",\"rejected\"],false]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Malaria Partners Dashboard"
+}

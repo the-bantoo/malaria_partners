@@ -6,13 +6,13 @@
  "doctype": "Number Card",
  "document_type": "Task",
  "dynamic_filters_json": "[]",
- "filters_json": "[[\"Task\",\"status\",\"in\",[\"Completed\",\"Template\",\"Cancelled\",null],false]]",
+ "filters_json": "[[\"Task\",\"status\",\"not in\",[\"Completed\",\"Template\",\"Cancelled\",null],false]]",
  "function": "Count",
  "idx": 0,
  "is_public": 1,
  "is_standard": 1,
  "label": "Ongoing Project Activities",
- "modified": "2024-08-26 16:54:05.707013",
+ "modified": "2024-08-26 23:09:57.123799",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Project Activity",
@@ -20,6 +20,6 @@
  "parent_document_type": "",
  "report_function": "Sum",
  "show_percentage_stats": 1,
- "stats_time_interval": "Daily",
+ "stats_time_interval": "Weekly",
  "type": "Document Type"
 }

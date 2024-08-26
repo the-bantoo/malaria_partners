@@ -1,6 +1,6 @@
 {
  "aggregate_function_based_on": "",
- "color": "#4F9DD9",
+ "color": "#4a4a4a",
  "creation": "2024-08-26 16:28:17.726593",
  "docstatus": 0,
  "doctype": "Number Card",
@@ -11,8 +11,8 @@
  "idx": 0,
  "is_public": 1,
  "is_standard": 1,
- "label": "Users",
- "modified": "2024-08-26 16:30:10.729033",
+ "label": "Daily Users/Employees",
+ "modified": "2024-08-26 23:52:35.239228",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Users",

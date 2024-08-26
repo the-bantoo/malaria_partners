@@ -1,0 +1,197 @@
+{
+ "charts": [
+  {
+   "chart_name": "Project Summary",
+   "label": "Live Project Overview"
+  }
+ ],
+ "content": "[{\"id\":\"VDMms0hapk\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Live Project Overview\",\"col\":12}},{\"id\":\"kY5eCJYo69\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"8yqX1lbNMU\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Projects\",\"col\":3}},{\"id\":\"du9GKAXrPw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Activities\",\"col\":3}},{\"id\":\"V7k2uHkX-s\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ongoing Project Activities\",\"col\":3}},{\"id\":\"esunNxOZ0k\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Late Project Activities\",\"col\":3}},{\"id\":\"nyuMo9byw7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"VTizthHc-E\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Board\",\"col\":3}},{\"id\":\"dILbX_r0ve\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Tasks\",\"col\":3}},{\"id\":\"JT8ntrqRiJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Projects\",\"col\":3}},{\"id\":\"jx5aPK9aXN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Learn Project Management\",\"col\":3}},{\"id\":\"LcAiEYN0re\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oGhjvYjfv-\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"TdsgJyG3EI\",\"type\":\"card\",\"data\":{\"card_name\":\"Projects\",\"col\":3}},{\"id\":\"nIc0iyvf1T\",\"type\":\"card\",\"data\":{\"card_name\":\"Time Tracking\",\"col\":3}},{\"id\":\"8G1if4jsQ7\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":3}},{\"id\":\"2TnWpBssnq\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"easter_egg\",\"col\":12}}]",
+ "creation": "2024-08-26 22:37:27.352907",
+ "custom_blocks": [
+  {
+   "custom_block_name": "easter_egg",
+   "label": "easter_egg"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "project",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Project Management",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Time Tracking",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Activity Type",
+   "link_count": 0,
+   "link_to": "Activity Type",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Activity Type",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Activity Cost",
+   "link_count": 0,
+   "link_to": "Activity Cost",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "Task",
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Delayed Tasks Summary",
+   "link_count": 0,
+   "link_to": "Delayed Tasks Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Projects",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Template",
+   "link_count": 0,
+   "link_to": "Project Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Type",
+   "link_count": 0,
+   "link_to": "Project Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "Project",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Update",
+   "link_count": 0,
+   "link_to": "Project Update",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Projects Settings",
+   "link_count": 0,
+   "link_to": "Projects Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-08-26 23:57:39.696841",
+ "modified_by": "Administrator",
+ "module": "Malaria Partners",
+ "name": "Project Management",
+ "number_cards": [
+  {
+   "label": "Ongoing Project Activities",
+   "number_card_name": "Ongoing Project Activities"
+  },
+  {
+   "label": "Late Project Activities",
+   "number_card_name": "Late Project Activities"
+  },
+  {
+   "label": "Completed Activities",
+   "number_card_name": "Completed Activities"
+  },
+  {
+   "label": "Active Projects",
+   "number_card_name": "Running Projects"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 8.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Learn Project Management",
+   "type": "URL",
+   "url": "https://frappe.school/courses/project-management?utm_source=in_app"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "format": "{} Assigned",
+   "label": "Project Tasks",
+   "link_to": "Task",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "Kanban",
+   "format": "{} Assigned",
+   "kanban_board": "Project Board",
+   "label": "Project Board",
+   "link_to": "Task",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "format": "{} Open",
+   "label": "Projects",
+   "link_to": "Project",
+   "stats_filter": "[[\"Project\",\"status\",\"=\",\"Open\",false]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Project Management"
+}

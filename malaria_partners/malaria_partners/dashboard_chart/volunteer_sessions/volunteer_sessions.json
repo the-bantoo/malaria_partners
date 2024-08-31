@@ -2,41 +2,24 @@
  "based_on": "start_date",
  "chart_name": "Volunteer Sessions",
  "chart_type": "Count",
-<<<<<<< HEAD
  "color": "#5be36f",
  "creation": "2024-08-26 21:41:08.377072",
-=======
- "color": "#761ACB",
- "creation": "2024-07-04 12:08:58.341338",
->>>>>>> c3625e9c5a4609bbd73492b0ecbb4ce38d631bf4
  "docstatus": 0,
  "doctype": "Dashboard Chart",
  "document_type": "Volunteer Log",
  "dynamic_filters_json": "[]",
  "filters_json": "[]",
  "group_by_type": "Count",
-<<<<<<< HEAD
  "idx": 0,
  "is_public": 1,
  "is_standard": 1,
  "last_synced_on": "2024-08-26 21:42:18.927684",
  "modified": "2024-08-26 21:46:50.303982",
-=======
- "idx": 25,
- "is_public": 1,
- "is_standard": 1,
- "last_synced_on": "2024-08-26 20:46:58.243033",
- "modified": "2024-08-26 21:32:31.114777",
->>>>>>> c3625e9c5a4609bbd73492b0ecbb4ce38d631bf4
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Volunteer Sessions",
  "number_of_groups": 0,
-<<<<<<< HEAD
- "owner": "adam.dawoodjee@gmail.com",
-=======
  "owner": "Administrator",
->>>>>>> c3625e9c5a4609bbd73492b0ecbb4ce38d631bf4
  "parent_document_type": "",
  "roles": [],
  "source": "",

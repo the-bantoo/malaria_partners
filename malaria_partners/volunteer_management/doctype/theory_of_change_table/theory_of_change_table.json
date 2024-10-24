@@ -1,0 +1,47 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-08 10:11:39.221450",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "primary_outcomes",
+  "intermediate_outcomes",
+  "outputs"
+ ],
+ "fields": [
+  {
+   "fieldname": "primary_outcomes",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Primary Outcomes"
+  },
+  {
+   "fieldname": "intermediate_outcomes",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Intermediate Outcomes"
+  },
+  {
+   "fieldname": "outputs",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Outputs"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-09 00:05:33.857342",
+ "modified_by": "Administrator",
+ "module": "Volunteer Management",
+ "name": "Theory of Change Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

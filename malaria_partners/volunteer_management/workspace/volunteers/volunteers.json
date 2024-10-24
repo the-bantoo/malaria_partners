@@ -1,0 +1,187 @@
+{
+ "charts": [
+  {
+   "chart_name": "Volunteer Sessions",
+   "label": "Volunteer Sessions"
+  },
+  {
+   "chart_name": "Volunteer Activity",
+   "label": "Volunteer Activity"
+  },
+  {
+   "chart_name": "Supported Communities",
+   "label": "Supported Communities"
+  },
+  {
+   "chart_name": "Registered Volunteers",
+   "label": "Volunteer Registrations"
+  }
+ ],
+ "content": "[{\"id\":\"OFVGZHFJ7Z\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Registrations\",\"col\":6}},{\"id\":\"bY6EvjGvSr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Sessions\",\"col\":6}},{\"id\":\"F51GuEY0Hr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Activity\",\"col\":6}},{\"id\":\"ysDefu7k0M\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Supported Communities\",\"col\":6}},{\"id\":\"8Pt_GhvNhY\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Volunteered Days\",\"col\":6}},{\"id\":\"scl2uKqQk2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4sShEi4b7Z\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteer Actions\",\"col\":3}},{\"id\":\"f7w9MoLn2F\",\"type\":\"card\",\"data\":{\"card_name\":\"Volunteers\",\"col\":3}},{\"id\":\"P3tGo32AiT\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":3}},{\"id\":\"QSQG8ZOxpz\",\"type\":\"card\",\"data\":{\"card_name\":\"Clubs\",\"col\":3}},{\"id\":\"t8nH1ufwjc\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AFhPo9Xfny\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2024-07-03 14:35:35.354097",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "heart",
+ "idx": 0,
+ "indicator_color": "orange",
+ "is_hidden": 0,
+ "label": "Volunteers",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteers",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteer Profile",
+   "link_count": 0,
+   "link_to": "Volunteer Profile",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteer Positions",
+   "link_count": 0,
+   "link_to": "Volunteer Position Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Clubs",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Club",
+   "link_count": 0,
+   "link_to": "Club",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Club Type",
+   "link_count": 0,
+   "link_to": "Club Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Activity District",
+   "link_count": 0,
+   "link_to": "Activity District",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteer Actions",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteer Activity Log",
+   "link_count": 0,
+   "link_to": "Volunteer Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteer Feedback",
+   "link_count": 0,
+   "link_to": "Volunteer Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Volunteer Report",
+   "link_count": 0,
+   "link_to": "Volunteer Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Volunteer Settings",
+   "link_count": 0,
+   "link_to": "Volunteer Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-08-27 01:18:55.942336",
+ "modified_by": "Administrator",
+ "module": "Volunteer Management",
+ "name": "Volunteers",
+ "number_cards": [
+  {
+   "label": "Total Volunteered Days",
+   "number_card_name": "Total Volunteer Days"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 9.0,
+ "shortcuts": [],
+ "title": "Volunteers"
+}

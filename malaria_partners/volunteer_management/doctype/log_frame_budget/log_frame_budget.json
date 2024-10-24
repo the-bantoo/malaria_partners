@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-09 00:54:37.919101",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "output_number",
+  "amended_budget",
+  "approved_annual_budget",
+  "carryf_yr1",
+  "total_budget",
+  "column_break_izam",
+  "actual_expenditure",
+  "budget_balance",
+  "additional_budget",
+  "actual_balance",
+  "ammended_budget",
+  "section_break_uxms",
+  "training_and_activities"
+ ],
+ "fields": [
+  {
+   "fieldname": "output_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Output Number"
+  },
+  {
+   "fieldname": "amended_budget",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amended Budget"
+  },
+  {
+   "fieldname": "approved_annual_budget",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Approved Annual Budget"
+  },
+  {
+   "fieldname": "carryf_yr1",
+   "fieldtype": "Currency",
+   "label": "Carry/F YR1"
+  },
+  {
+   "fieldname": "total_budget",
+   "fieldtype": "Currency",
+   "label": "Total Budget"
+  },
+  {
+   "fieldname": "column_break_izam",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "actual_expenditure",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Actual Expenditure"
+  },
+  {
+   "fieldname": "budget_balance",
+   "fieldtype": "Currency",
+   "label": "Budget Balance"
+  },
+  {
+   "fieldname": "additional_budget",
+   "fieldtype": "Currency",
+   "label": "Additional Budget"
+  },
+  {
+   "fieldname": "actual_balance",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Actual Balance"
+  },
+  {
+   "fieldname": "ammended_budget",
+   "fieldtype": "Currency",
+   "label": "Ammended Budget"
+  },
+  {
+   "fieldname": "section_break_uxms",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "training_and_activities",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Training and Activities"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-09 01:10:14.511526",
+ "modified_by": "Administrator",
+ "module": "Volunteer Management",
+ "name": "Log Frame Budget",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

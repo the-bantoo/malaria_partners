@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-09 16:39:46.129374",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "data",
+  "primary_indicators",
+  "indicator_definition",
+  "baseline",
+  "column_break_yifv",
+  "data_collection_methods",
+  "data_sourcesif_applicable",
+  "year_1_target",
+  "year_1_achievement",
+  "explanation_for_variance"
+ ],
+ "fields": [
+  {
+   "fieldname": "data",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Expected Results"
+  },
+  {
+   "fieldname": "primary_indicators",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Primary Indicator(s)"
+  },
+  {
+   "fieldname": "indicator_definition",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Indicator Definition"
+  },
+  {
+   "fieldname": "baseline",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Baseline"
+  },
+  {
+   "fieldname": "column_break_yifv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_collection_methods",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Data Collection Methods",
+   "options": "Data Collection Method"
+  },
+  {
+   "fieldname": "data_sourcesif_applicable",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Data Sources(if applicable)",
+   "options": "Data Source"
+  },
+  {
+   "fieldname": "year_1_target",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Year 1 Target"
+  },
+  {
+   "fieldname": "year_1_achievement",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Year 1 Achievement"
+  },
+  {
+   "fieldname": "explanation_for_variance",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Explanation for Variance"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-09 17:13:40.792081",
+ "modified_by": "Administrator",
+ "module": "Volunteer Management",
+ "name": "Table LogFrame",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:TOC-{YYYY}-{MM}-{####}",
+ "creation": "2024-08-08 10:03:48.118136",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "section_break_bhtl",
+  "strategic_goal",
+  "section_break_acna",
+  "preconditions",
+  "column_break_wjcc",
+  "assumptions",
+  "section_break_zzxm",
+  "theory_of_change",
+  "budget_tab",
+  "project_name",
+  "prepared_by",
+  "column_break_dvab",
+  "project_number",
+  "approved_by",
+  "section_break_pvcc",
+  "budget"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "preconditions",
+   "fieldtype": "Small Text",
+   "label": "Preconditions"
+  },
+  {
+   "fieldname": "strategic_goal",
+   "fieldtype": "Small Text",
+   "label": "Strategic Goal"
+  },
+  {
+   "fieldname": "section_break_zzxm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "theory_of_change",
+   "fieldtype": "Table",
+   "label": "Theory of Change",
+   "options": "Theory of Change Table",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_bhtl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_acna",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_wjcc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assumptions",
+   "fieldtype": "Small Text",
+   "label": "Assumptions"
+  },
+  {
+   "fieldname": "budget_tab",
+   "fieldtype": "Tab Break",
+   "label": "Budget"
+  },
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "project_number",
+   "fieldtype": "Data",
+   "label": "Project Number"
+  },
+  {
+   "fieldname": "prepared_by",
+   "fieldtype": "Link",
+   "label": "Prepared By",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_dvab",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_pvcc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "budget",
+   "fieldtype": "Table",
+   "label": "Budget",
+   "options": "Log Frame Budget"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-11 12:41:29.171156",
+ "modified_by": "Administrator",
+ "module": "Volunteer Management",
+ "name": "Theory of Change",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

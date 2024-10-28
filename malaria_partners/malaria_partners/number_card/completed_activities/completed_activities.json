@@ -1,6 +1,6 @@
 {
  "aggregate_function_based_on": "",
- "color": "#39e3b8",
+ "color": "#29CD42",
  "creation": "2024-08-26 23:15:53.375160",
  "docstatus": 0,
  "doctype": "Number Card",
@@ -12,7 +12,7 @@
  "is_public": 1,
  "is_standard": 1,
  "label": "Completed Activities",
- "modified": "2024-08-27 01:37:53.995346",
+ "modified": "2024-10-28 15:58:19.189435",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Completed Activities",

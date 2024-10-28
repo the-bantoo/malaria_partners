@@ -4,7 +4,7 @@ app_publisher = "Fabric"
 app_description = "Custom applications for Malaria Partners Zambia"
 app_email = "devs@thebantoo.com"
 app_license = "mit"
-# required_apps = []
+required_apps = ["flex", "erpnext"]
 
 # Includes in <head>
 # ------------------
@@ -227,3 +227,12 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+fixtures = [    
+    {
+        "doctype": "Custom HTML Block",
+        "filters": {
+            "name": ["in", ["made in zambia"]]
+        }
+    }
+]

@@ -1,0 +1,24 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<h6 style=\"text-align: left;\">Made in Zambia 🇿🇲</h6>",
+  "modified": "2024-10-28 19:04:22.156588",
+  "name": "made in zambia",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Custom HTML Block",
+  "html": "<h6 style=\"text-align: left;\">do it right even when no one is looking ♥️️️</h6>",
+  "modified": "2024-10-28 17:35:55.789751",
+  "name": "easter_egg",
+  "private": 0,
+  "roles": [],
+  "script": null,
+  "style": null
+ }
+]

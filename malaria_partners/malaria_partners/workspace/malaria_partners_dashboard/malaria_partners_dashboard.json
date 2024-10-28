@@ -9,7 +9,7 @@
    "label": "Payment Requisition Approvals"
   }
  ],
- "content": "[{\"id\":\"tjRVtRE27l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Projects\",\"col\":3}},{\"id\":\"f_7JXHSvCR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ongoing Project Activities\",\"col\":3}},{\"id\":\"aqXErW1AMX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Registered Users & Employees\",\"col\":6}},{\"id\":\"ruo_JtpnT7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Late Project Activities\",\"col\":3}},{\"id\":\"OtdsYeH73X\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Activities\",\"col\":3}},{\"id\":\"_Z9EwuG4uR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL VOLUNTEERS\",\"col\":6}},{\"id\":\"Fvuo1MFVDE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"aJX8K8Elxp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Payment Requisition Approvals\",\"col\":6}},{\"id\":\"ZUiZ4V_0H3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Supported Communities\",\"col\":6}},{\"id\":\"L8ovYr0Uil\",\"type\":\"paragraph\",\"data\":{\"text\":\"Quick Actions\",\"col\":12}},{\"id\":\"wHWe4LHbzs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Payment Requisition\",\"col\":3}},{\"id\":\"EOWQCbvZMt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Manage Volunteers\",\"col\":3}},{\"id\":\"lRe7YTnqzR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Todo Board\",\"col\":3}},{\"id\":\"fQwdAtfDEn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Board\",\"col\":3}},{\"id\":\"shDDzkut_t\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"NRzRpU-nUB\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"made in zambia\",\"col\":12}}]",
+ "content": "[{\"id\":\"tjRVtRE27l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Projects\",\"col\":3}},{\"id\":\"f_7JXHSvCR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ongoing Project Activities\",\"col\":3}},{\"id\":\"ruo_JtpnT7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Late Project Activities\",\"col\":3}},{\"id\":\"OtdsYeH73X\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Activities\",\"col\":3}},{\"id\":\"_Z9EwuG4uR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL VOLUNTEERS\",\"col\":6}},{\"id\":\"Fvuo1MFVDE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"aJX8K8Elxp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Payment Requisition Approvals\",\"col\":6}},{\"id\":\"ZUiZ4V_0H3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Supported Communities\",\"col\":6}},{\"id\":\"L8ovYr0Uil\",\"type\":\"paragraph\",\"data\":{\"text\":\"Quick Actions\",\"col\":12}},{\"id\":\"wHWe4LHbzs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Payment Requisition\",\"col\":3}},{\"id\":\"EOWQCbvZMt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Manage Volunteers\",\"col\":3}},{\"id\":\"lRe7YTnqzR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Todo Board\",\"col\":3}},{\"id\":\"fQwdAtfDEn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Board\",\"col\":3}},{\"id\":\"shDDzkut_t\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"NRzRpU-nUB\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"made in zambia\",\"col\":12}}]",
  "creation": "2024-07-03 14:32:48.370989",
  "custom_blocks": [
   {
@@ -27,8 +27,8 @@
  "is_hidden": 0,
  "label": "Malaria Partners Dashboard",
  "links": [],
- "modified": "2024-10-28 15:55:48.931748",
- "modified_by": "Administrator",
+ "modified": "2024-10-28 19:04:32.417833",
+ "modified_by": "testperm@example.com",
  "module": "Malaria Partners",
  "name": "Malaria Partners Dashboard",
  "number_cards": [
@@ -51,10 +51,6 @@
   {
    "label": "Late Project Activities",
    "number_card_name": "Late Project Activities"
-  },
-  {
-   "label": "Registered Users & Employees",
-   "number_card_name": "Users"
   }
  ],
  "owner": "Administrator",
@@ -70,9 +66,27 @@
   },
   {
    "role": "Projects User"
+  },
+  {
+   "role": "Board Director"
+  },
+  {
+   "role": "Director"
+  },
+  {
+   "role": "Director Approver Level 1"
+  },
+  {
+   "role": "Director Approver Level 2"
+  },
+  {
+   "role": "Executive Director"
+  },
+  {
+   "role": "Projects Manager"
   }
  ],
- "sequence_id": 2.0,
+ "sequence_id": 3.0,
  "shortcuts": [
   {
    "color": "Blue",

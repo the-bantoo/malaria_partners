@@ -232,7 +232,28 @@ fixtures = [
     {
         "doctype": "Custom HTML Block",
         "filters": {
-            "name": ["in", ["made in zambia"]]
-        }
+            "name": ["in", [
+                "made in zambia",
+                "easter_egg"
+            ]]
+        }        
+    },
+    {
+        "doctype": "Custom DocPerm", 
+        "filters": {
+            "role": ["in", [
+                "Director",
+                "Employee Self Service",
+                "Director Approver Level 1",
+                "Director Approver Level 2",
+                "Executive Director",
+                "Projects Manager",
+                "Projects User",
+                "All Finance",
+                "Volunteer",
+                "All"
+            ]]
+        }           
     }
 ]
+# "filters": [["role", "=", ""]]},

@@ -239,6 +239,14 @@ fixtures = [
         }        
     },
     {
+        "doctype": "Workspace",
+        "filters": {
+            "title": ["in", [
+                "Malaria Partners Dashboard",
+            ]]
+        }        
+    },
+    {
         "doctype": "Custom DocPerm", 
         "filters": {
             "role": ["in", [

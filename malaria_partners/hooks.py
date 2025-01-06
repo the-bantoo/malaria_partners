@@ -254,6 +254,18 @@ fixtures = [
                 "All"
             ]]
         }           
+    },
+    {
+        "doctype": "Property Setter",
+        "filters": {
+            "doc_type": ["in", [
+                 "Salary Slip",
+                 "Salary Structure Assignment",
+                 "Employee",
+                 "Project",
+                 "Compensatory Leave Request"
+            ]]
+        }
     }
 ]
 # "filters": [["role", "=", ""]]},

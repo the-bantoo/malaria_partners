@@ -34,7 +34,7 @@ def get_defaults():
 	last_log = frappe.get_last_doc("Driver Log")
 	last_vehicle = False
 	last_odometer = 0
-	last_location = Falses
+	last_location = False
 
 	if last_log:
 		last_vehicle = last_log.license_plate

@@ -1,0 +1,316 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "autoname": "format:TRIP-{first_name}-{#####}",
+ "creation": "2025-01-14 14:20:46.611215",
+ "default_view": "List",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "column_break_equx",
+  "employee",
+  "first_name",
+  "vehicle_section",
+  "license_plate",
+  "column_break_7",
+  "model",
+  "column_break_nnmm",
+  "make",
+  "column_break_sjos",
+  "odometer_reading",
+  "last_odometer",
+  "column_break_12",
+  "odometer",
+  "trip_details_section",
+  "from",
+  "to",
+  "column_break_oteu",
+  "purpose",
+  "project",
+  "refuelling_details",
+  "fuel_qty",
+  "column_break_wvcf",
+  "price",
+  "column_break_zfyc",
+  "total_amount",
+  "column_break_15",
+  "invoice",
+  "section_break_aryx",
+  "column_break_fecx",
+  "column_break_gawz",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehicle_section",
+   "fieldtype": "Section Break",
+   "label": "Vehicle",
+   "options": "fa fa-user"
+  },
+  {
+   "fieldname": "license_plate",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "License Plate",
+   "options": "Vehicle",
+   "remember_last_selected_value": 1,
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Employee",
+   "link_filters": "[[\"Employee\",\"status\",\"=\",\"Active\"]]",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "license_plate.model",
+   "fieldname": "model",
+   "fieldtype": "Read Only",
+   "label": "Model"
+  },
+  {
+   "fetch_from": "license_plate.make",
+   "fieldname": "make",
+   "fieldtype": "Read Only",
+   "label": "Make"
+  },
+  {
+   "fieldname": "odometer_reading",
+   "fieldtype": "Section Break",
+   "label": "Odometer Reading"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "odometer",
+   "fieldtype": "Int",
+   "label": "Current Odometer value ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "license_plate.last_odometer",
+   "fieldname": "last_odometer",
+   "fieldtype": "Int",
+   "label": "Last Odometer Value ",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "refuelling_details",
+   "fieldtype": "Section Break",
+   "label": "Refuelling Details"
+  },
+  {
+   "fieldname": "fuel_qty",
+   "fieldtype": "Float",
+   "label": "Fuel Qty",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "Fuel Price",
+   "mandatory_depends_on": "eval: doc.fuel_qty > 0",
+   "non_negative": 1,
+   "options": "Company:company:default_currency"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice",
+   "fieldtype": "Data",
+   "label": "Invoice No."
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Driver Log",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_equx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "trip_details_section",
+   "fieldtype": "Section Break",
+   "label": "Trip Details"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "from",
+   "fieldtype": "Table MultiSelect",
+   "in_standard_filter": 1,
+   "label": "From",
+   "options": "Places",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "to",
+   "fieldtype": "Table MultiSelect",
+   "label": "To",
+   "options": "Places",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project (Optional)",
+   "options": "Project"
+  },
+  {
+   "fieldname": "column_break_oteu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "purpose",
+   "fieldtype": "Small Text",
+   "label": "Purpose",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount",
+   "non_negative": 1,
+   "options": "Company:company:default_currency",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_nnmm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sjos",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_wvcf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_zfyc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_aryx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_fecx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_gawz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "employee.first_name",
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "read_only": 1
+  }
+ ],
+ "is_calendar_and_gantt": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-14 17:49:41.467832",
+ "modified_by": "Administrator",
+ "module": "Transport",
+ "name": "Driver Log",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Fleet Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Employee",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

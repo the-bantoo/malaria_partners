@@ -1,7 +1,7 @@
-// Copyright (c) 2024, Fabric and contributors
+// Copyright (c) 2025, Fabric and contributors
 // For license information, please see license.txt
 
-// frappe.ui.form.on("Odometer", {
+// frappe.ui.form.on("Places", {
 // 	refresh(frm) {
 
 // 	},

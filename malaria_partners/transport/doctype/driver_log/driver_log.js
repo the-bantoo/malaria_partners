@@ -31,7 +31,6 @@ frappe.ui.form.on("Driver Log", {
                 frappe.call({
                     method: "malaria_partners.transport.doctype.driver_log.driver_log.get_defaults",
                     callback: function(r){
-                        console.log('result', r, r.message['employee_name'])
                         if (r.message){
                             if (r.message['employee_name'] && !frm.doc.employee){
                                 frm.set_value("employee", r.message.employee_name);

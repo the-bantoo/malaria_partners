@@ -159,9 +159,6 @@ required_apps = ["flex", "erpnext"]
 
 
 scheduler_events = {
-	"all": [
-		"malaria_partners.transport.schedule.run"
-	],
 	"daily": [
 		"malaria_partners.transport.schedule.run"
 	],

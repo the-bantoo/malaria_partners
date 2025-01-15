@@ -1,0 +1,13 @@
+{
+ "creation": "2025-01-15 21:14:55.383935",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2025-01-15 21:14:55.383935",
+ "modified_by": "Administrator",
+ "module": "Transport",
+ "name": "Vehicle Usage",
+ "owner": "Administrator",
+ "source_name": "Vehicle Usage",
+ "timeseries": 1
+}

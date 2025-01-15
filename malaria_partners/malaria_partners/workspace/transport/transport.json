@@ -1,7 +1,12 @@
 {
- "charts": [],
- "content": "[{\"id\":\"YVqchHar5M\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Transport</span>\",\"col\":12}},{\"id\":\"wtKKo5Ym7g\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Driver Log\",\"col\":6}},{\"id\":\"aHsbGC5NHZ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wVah1bDwo4\",\"type\":\"card\",\"data\":{\"card_name\":\"Records\",\"col\":6}},{\"id\":\"SIMEzqWTEu\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":6}}]",
- "creation": "2025-01-15 14:13:26.382295",
+ "charts": [
+  {
+   "chart_name": "Transport Log",
+   "label": "Transport Activity"
+  }
+ ],
+ "content": "[{\"id\":\"YVqchHar5M\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Transport</span>\",\"col\":12}},{\"id\":\"s_NV9LVONy\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Transport Activity\",\"col\":12}},{\"id\":\"wtKKo5Ym7g\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Driver Log\",\"col\":6}},{\"id\":\"aHsbGC5NHZ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wVah1bDwo4\",\"type\":\"card\",\"data\":{\"card_name\":\"Records\",\"col\":6}},{\"id\":\"SIMEzqWTEu\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":6}}]",
+ "creation": "2025-01-15 21:22:24.872026",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -72,7 +77,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-01-15 20:33:41.742956",
+ "modified": "2025-01-15 21:30:19.192716",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Transport",

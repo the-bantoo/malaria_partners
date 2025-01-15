@@ -1,0 +1,13 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Vehicle",
+  "enabled": 1,
+  "modified": "2025-01-15 14:02:04.489510",
+  "module": "Malaria Partners",
+  "name": "MPZ - Update Odometer",
+  "script": "frappe.ui.form.on('Vehicle', {\n\trefresh(frm) {\n\t\tif (!frm.is_new()){\n\t\t    \n\t\t\tfrm.add_custom_button(\n\t\t\t\t__(\"Update Odometer\"),\n\t\t\t\tfunction () {\n\t\t\t\t\tfrm.events.update_odometer(frm);\n\t\t\t\t},\n\t\t\t\t__(\"Manage\"),\n\t\t\t);\n\t\t}\n\t},\n\tupdate_odometer(frm){\n\t    frappe.prompt({\n                label: 'Odometer Reading',\n                fieldname: 'odometer',\n                fieldtype: 'Int'\n            }, (values) => {\n                if (values.odometer && Number(values.odometer) && values.odometer > 0){\n    \t            frappe.call({\n                        method: \"malaria_partners.transport.transport_utils.updated_odometer_value\",\n                        args: {\n                            vehical: frm.doc.license_plate,\n                            new_odometer_value: values.odometer\n                        },\n                        callback: function(r){\n                            if (!r.error){\n                                frm.reload_doc();\n                                \n                                // frm.refresh_field('last_odometer');\n                            }\n                        }\n                    });\n                }\n                else {\n                    frappe.show_alert({\n                        message: __(\"Invalid odometer reading\"),\n                        indicator: 'red'\n                    }, 4);\n                }\n        });\n\t}\n});",
+  "view": "Form"
+ }
+]

@@ -256,6 +256,9 @@ fixtures = [
 		"filters": {
 			"title": ["in", [
 				"Malaria Partners Dashboard",
+				"Transport",
+				"Project Management",
+				"Volunteers"
 			]]
 		}        
 	},
@@ -263,6 +266,7 @@ fixtures = [
 		"doctype": "Custom DocPerm", 
 		"filters": {
 			"role": ["in", [
+                "Fleet Manager",
 				"Director",
 				"Employee Self Service",
 				"Director Approver Level 1",
@@ -276,17 +280,39 @@ fixtures = [
 			]]
 		}           
 	},
+    {
+        "doctype": "Custom DocPerm",
+        "filters": {
+            "parent": ["in", [
+                "Employee",
+				"Vehicle"
+            ]]
+        }
+    },
+    {
+        "dt": "Custom Field",
+        "filters": {
+            "module": "Malaria Partners"
+        }
+    },
 	{
 		"doctype": "Property Setter",
 		"filters": {
 			"doc_type": ["in", [
-				 "Salary Slip",
-				 "Salary Structure Assignment",
-				 "Employee",
-				 "Project",
-				 "Compensatory Leave Request"
+				"Vehicle",
+				"Salary Slip",
+				"Salary Structure Assignment",
+				"Employee",
+				"Project",
+				"Compensatory Leave Request"
 			]]
 		}
-	}
+	},
+    {
+        "doctype": "Client Script",
+        "filters": {
+            "module": ["=", "Malaria Partners"]
+        }
+    },
 ]
 # "filters": [["role", "=", ""]]},

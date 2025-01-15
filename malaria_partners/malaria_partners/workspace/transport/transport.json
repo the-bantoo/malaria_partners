@@ -1,0 +1,88 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"YVqchHar5M\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Transport</span>\",\"col\":12}},{\"id\":\"wtKKo5Ym7g\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Driver Log\",\"col\":6}},{\"id\":\"aHsbGC5NHZ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wVah1bDwo4\",\"type\":\"card\",\"data\":{\"card_name\":\"Records\",\"col\":6}},{\"id\":\"SIMEzqWTEu\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":6}}]",
+ "creation": "2025-01-15 12:18:34.746465",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "change",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Transport",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Records",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Driver Log",
+   "link_count": 0,
+   "link_to": "Driver Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vehicle",
+   "link_count": 0,
+   "link_to": "Vehicle",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fleet Settings",
+   "link_count": 0,
+   "link_to": "Fleet Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-01-15 14:08:57.674327",
+ "modified_by": "Administrator",
+ "module": "Malaria Partners",
+ "name": "Transport",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 32.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "New",
+   "format": "{} Entries",
+   "label": "New Driver Log",
+   "link_to": "Driver Log",
+   "stats_filter": "[[\"Driver Log\",\"docstatus\",\"=\",\"1\",false]]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Transport"
+}

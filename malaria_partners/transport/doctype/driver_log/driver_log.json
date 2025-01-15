@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_events_in_timeline": 1,
- "autoname": "format:TRIP-{first_name}-{#####}",
+ "autoname": "format:TRIP-{#####}-{first_name}",
  "creation": "2025-01-14 14:20:46.611215",
  "default_view": "List",
  "doctype": "DocType",
@@ -249,7 +249,7 @@
  "is_calendar_and_gantt": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-01-14 19:23:42.159383",
+ "modified": "2025-01-15 19:59:45.869583",
  "modified_by": "Administrator",
  "module": "Transport",
  "name": "Driver Log",

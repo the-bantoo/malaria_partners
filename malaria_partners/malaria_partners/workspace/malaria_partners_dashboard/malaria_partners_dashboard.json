@@ -27,8 +27,8 @@
  "is_hidden": 0,
  "label": "Malaria Partners Dashboard",
  "links": [],
- "modified": "2024-10-28 19:04:32.417833",
- "modified_by": "testperm@example.com",
+ "modified": "2025-01-15 12:19:41.025038",
+ "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Malaria Partners Dashboard",
  "number_cards": [
@@ -74,10 +74,10 @@
    "role": "Director"
   },
   {
-   "role": "Director Approver Level 1"
+   "role": "First Approver"
   },
   {
-   "role": "Director Approver Level 2"
+   "role": "Final Approver"
   },
   {
    "role": "Executive Director"

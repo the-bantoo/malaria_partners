@@ -3,7 +3,6 @@
 
 frappe.ui.form.on("Driver Log", {
     setup(frm){
-        
     },
     validate(frm){
         if (frm.doc.from[0].places === frm.doc.to[0].places){
@@ -26,6 +25,8 @@ frappe.ui.form.on("Driver Log", {
         }
     },
 	refresh: function (frm) {
+        set_breadcrumbs(frm);
+
 		if (frm.doc.docstatus == 0 && frm.is_new()) {
             // if(!frm.doc.employee){
                 frappe.call({
@@ -61,4 +62,15 @@ frappe.ui.form.on("Driver Log", {
 function calc_amt(frm){
     frm.set_value("total_amount", parseFloat(frm.doc.fuel_qty) * parseFloat(frm.doc.price));
     frm.refresh_field("total_amount");
+}
+
+function set_breadcrumbs(frm){
+    let workspace = 'Transport';
+        
+    frappe.breadcrumbs.all[frappe.get_route_str()] = {
+        workspace: workspace,
+        doctype: frm.doctype,
+        type: 'Form'
+    };
+    frappe.breadcrumbs.update();
 }

@@ -95,10 +95,37 @@ def generate_vehicle_due_items_message(vehicles, due_date):
 
     return message
 
+def get_recipients():
+    """Return a list of recipients with roles `fleet manager` and `accounts manager`."""
+    
+    nested_recipient_list = get_users_based_on_role(("Fleet Manager", "Accounts Manager"))
+    if nested_recipient_list: return [item for sublist in nested_recipient_list for item in sublist]
+        
+
+def get_users_based_on_role(roles):
+    """Get information of all users that have been assigned this role
+        :param roles is a tuple"""
+    
+    # SQL query to get users with the specified role
+    query = """
+        SELECT DISTINCT parent AS user_name
+        FROM `tabHas Role`
+        WHERE parent != 'Administrator' AND 
+            role IN %s AND
+            parenttype = 'User'
+    """
+    
+    # Execute the query
+    return frappe.db.sql(query, (roles,), as_list=1)
+
 def send_compliance_reminders():
     """Send reminders for statutory compliance."""
-    vehicles, due_date = get_due_vehicles()
+    
+    recipients = get_recipients()
+    if not recipients:
+        return
 
+    vehicles, due_date = get_due_vehicles()
     if not due_date:
         return
 
@@ -117,7 +144,7 @@ def send_compliance_reminders():
             insurance.append(v)
 
     email_msg = generate_vehicle_due_items_message(vehicles, due_date)
-    frappe.sendmail(recipients=['adam.dawoodjee@gmail.com'], subject="Vehicle Compliance Renewal Reminder", message=email_msg)
+    frappe.sendmail(recipients=recipients, subject="Vehicle Compliance Renewal Reminder", message=email_msg)
 
     """
     - get email recipients

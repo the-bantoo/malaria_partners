@@ -127,7 +127,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-10-28 18:44:20.648233",
+ "modified": "2025-01-15 12:19:47.832544",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Project Management",
@@ -162,10 +162,10 @@
    "role": "Projects User"
   },
   {
-   "role": "Director Approver Level 1"
+   "role": "First Approver"
   },
   {
-   "role": "Director Approver Level 2"
+   "role": "Final Approver"
   },
   {
    "role": "Director"

@@ -15,13 +15,16 @@
   {
    "fieldname": "vehicle_section",
    "fieldtype": "Section Break",
-   "label": "Vehicle"
+   "hidden": 1,
+   "label": "Vehicle Maintenance Service"
   },
   {
+   "default": "5000",
    "description": "Service will be sent reminders every time this distance is travelled since the last service",
    "fieldname": "service_interval",
    "fieldtype": "Int",
-   "label": "Service Interval"
+   "label": "Service Interval",
+   "non_negative": 1
   },
   {
    "fieldname": "column_break_xmhx",
@@ -33,9 +36,11 @@
    "label": "Compliance"
   },
   {
+   "default": "14",
    "fieldname": "days_to_expiry",
    "fieldtype": "Int",
-   "label": "Days before expiry to start sending email reminders"
+   "label": "Days before expiry to start sending email reminders",
+   "non_negative": 1
   },
   {
    "default": "0",
@@ -46,7 +51,7 @@
  ],
  "issingle": 1,
  "links": [],
- "modified": "2025-01-15 11:46:15.309950",
+ "modified": "2025-01-15 12:11:15.900768",
  "modified_by": "Administrator",
  "module": "Transport",
  "name": "Fleet Settings",

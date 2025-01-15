@@ -18,7 +18,7 @@ def get_due_vehicles():
     if date is within the set number of days from today, send a reminder"""
     settings = get_fleet_settings()
     # get all vehicles where custom_send_email_reminders is not 'No' and any of the dates is within 14 days of today going forward
-    due_date = frappe.utils.add_days(frappe.utils.nowdate(), settings.days_to_expiry)
+    due_date = frappe.utils.add_days(frappe.utils.nowdate(), settings.days_to_expiry or 14)
     if settings.pause_reminders == 1:
         return None, None
 
@@ -36,7 +36,7 @@ def generate_vehicle_due_items_message(vehicles, due_date):
     message = """
     <div style="font-family: Arial, sans-serif; color: #333; max-width: 800px; margin: 0 auto; text-align: left;">
         <h1 style="color: #2c3e50; margin-bottom: 20px;">Compliance Items for Renewal</h1>
-        <p style="color: #777; margin-top: 20px;">Please ensure all due items are renewed on time.</p>
+        <p style="color: #777; margin-top: 20px;  margin-bottom: 20px;">Please ensure all due items are renewed on time.</p>
         
         <div style="overflow-x: auto;">
             <table style="width: 100%; border-collapse: collapse; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); min-width: 600px;">
@@ -101,7 +101,7 @@ def send_compliance_reminders():
 
     if not due_date:
         return
-        
+
     due_date = frappe.utils.getdate(due_date)
 
     fitness = []

@@ -149,7 +149,23 @@ required_apps = ["flex", "erpnext"]
 # 	"monthly": [
 # 		"malaria_partners.tasks.monthly"
 # 	],
+
+# "cron": {
+# 	"* * * * *": [
+# 		"malaria_partners.transport.schedule.run"
+# 	]
+# },
 # }
+
+
+scheduler_events = {
+	"all": [
+		"malaria_partners.transport.schedule.run"
+	],
+	"daily": [
+		"malaria_partners.transport.schedule.run"
+	],
+}
 
 # Testing
 # -------
@@ -229,51 +245,51 @@ required_apps = ["flex", "erpnext"]
 
 
 fixtures = [    
-    {
-        "doctype": "Custom HTML Block",
-        "filters": {
-            "name": ["in", [
-                "made in zambia",
-                "easter_egg"
-            ]]
-        }        
-    },
-    {
-        "doctype": "Workspace",
-        "filters": {
-            "title": ["in", [
-                "Malaria Partners Dashboard",
-            ]]
-        }        
-    },
-    {
-        "doctype": "Custom DocPerm", 
-        "filters": {
-            "role": ["in", [
-                "Director",
-                "Employee Self Service",
-                "Director Approver Level 1",
-                "Director Approver Level 2",
-                "Executive Director",
-                "Projects Manager",
-                "Projects User",
-                "All Finance",
-                "Volunteer",
-                "All"
-            ]]
-        }           
-    },
-    {
-        "doctype": "Property Setter",
-        "filters": {
-            "doc_type": ["in", [
-                 "Salary Slip",
-                 "Salary Structure Assignment",
-                 "Employee",
-                 "Project",
-                 "Compensatory Leave Request"
-            ]]
-        }
-    }
+	{
+		"doctype": "Custom HTML Block",
+		"filters": {
+			"name": ["in", [
+				"made in zambia",
+				"easter_egg"
+			]]
+		}        
+	},
+	{
+		"doctype": "Workspace",
+		"filters": {
+			"title": ["in", [
+				"Malaria Partners Dashboard",
+			]]
+		}        
+	},
+	{
+		"doctype": "Custom DocPerm", 
+		"filters": {
+			"role": ["in", [
+				"Director",
+				"Employee Self Service",
+				"Director Approver Level 1",
+				"Director Approver Level 2",
+				"Executive Director",
+				"Projects Manager",
+				"Projects User",
+				"All Finance",
+				"Volunteer",
+				"All"
+			]]
+		}           
+	},
+	{
+		"doctype": "Property Setter",
+		"filters": {
+			"doc_type": ["in", [
+				 "Salary Slip",
+				 "Salary Structure Assignment",
+				 "Employee",
+				 "Project",
+				 "Compensatory Leave Request"
+			]]
+		}
+	}
 ]
 # "filters": [["role", "=", ""]]},

@@ -68,6 +68,15 @@ frappe.query_reports["Vehicle Usage Report"] = {
         //     default: 1
         // }
     ],
+	onload: function(report) {
+		frappe.breadcrumbs.all[frappe.get_route_str()] = {
+            workspace: "Transport",
+            doctype: report.report_name,
+            type: 'Report'
+        };
+        
+        frappe.breadcrumbs.update();
+	},
 
     formatter: function(value, row, column, data, default_formatter) {
         value = default_formatter(value, row, column, data);
@@ -100,9 +109,18 @@ frappe.query_reports["Vehicle Usage Report"] = {
     //     $(datatable_obj.wrapper).find('.dt-scrollable').css('height', '500px');
     // },
 
-    // refresh: function(frm) {
-    //     // Add any custom refresh logic
-    //     frm.trigger('update_totals');
+    // refresh: function() {
+	// 	// Set the workspace for breadcrumbs
+    //     let workspace = 'Transport';
+        
+    //     // Update breadcrumbs for the report
+    //     frappe.breadcrumbs.all[frappe.get_route_str()] = {
+    //         workspace: workspace,
+    //         doctype: 'Vehicle Usage Report',
+    //         type: 'Report'
+    //     };
+    //     frappe.breadcrumbs.update();
+	// 	console.log('refresh'); 
     // },
 
     // update_totals: function(frm) {

@@ -255,7 +255,7 @@ def get_grouped_data(conditions, filters):
 		elif group_by == 'employee':
 			row['employee_name'] = row.pop('group_field')
 		elif group_by == 'project':
-			row['project_name'] = row.pop('group_field') if row.get('group_field') else "Other/Non Project"
+			row['project_name'] = row.pop('group_field') or "Other/Non Project"
 	
 	return data
 

@@ -1,0 +1,59 @@
+{
+ "based_on": "start_date",
+ "chart_name": "Volunteer",
+ "chart_type": "Sum",
+ "color": "#4463F0",
+ "creation": "2024-08-26 18:07:29.374952",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "Volunteer Log",
+ "dynamic_filters_json": "[]",
+ "filters_json": "{}",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "last_synced_on": "2024-08-26 18:01:13.908875",
+ "modified": "2025-01-16 15:49:38.944444",
+ "modified_by": "Administrator",
+ "module": "Malaria Partners",
+ "name": "Volunteer",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "parent_document_type": "",
+ "report_name": "Total Volunteer Hours",
+ "roles": [
+  {
+   "role": "Projects Manager"
+  },
+  {
+   "role": "Projects User"
+  },
+  {
+   "role": "Executive Director"
+  },
+  {
+   "role": "Final Approver"
+  },
+  {
+   "role": "First Approver"
+  },
+  {
+   "role": "Volunteer"
+  }
+ ],
+ "source": "",
+ "time_interval": "Quarterly",
+ "timeseries": 1,
+ "timespan": "Last Year",
+ "type": "Line",
+ "use_report_chart": 0,
+ "value_based_on": "time_spent",
+ "x_field": "start_date",
+ "y_axis": [
+  {
+   "color": "#29CD42",
+   "y_field": "total_hours"
+  }
+ ]
+}

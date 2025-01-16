@@ -304,7 +304,8 @@ fixtures = [
 				"Salary Structure Assignment",
 				"Employee",
 				"Project",
-				"Compensatory Leave Request"
+				"Compensatory Leave Request",
+				"Workspace"
 			]]
 		}
 	},

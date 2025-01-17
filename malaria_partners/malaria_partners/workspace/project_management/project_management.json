@@ -6,7 +6,7 @@
   }
  ],
  "content": "[{\"id\":\"VDMms0hapk\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Live Project Overview\",\"col\":12}},{\"id\":\"8yqX1lbNMU\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Projects\",\"col\":3}},{\"id\":\"V7k2uHkX-s\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ongoing Project Activities\",\"col\":3}},{\"id\":\"esunNxOZ0k\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Late Project Activities\",\"col\":3}},{\"id\":\"du9GKAXrPw\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Activities\",\"col\":3}},{\"id\":\"nyuMo9byw7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"VTizthHc-E\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Board\",\"col\":3}},{\"id\":\"dILbX_r0ve\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Tasks\",\"col\":3}},{\"id\":\"JT8ntrqRiJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Projects\",\"col\":3}},{\"id\":\"jx5aPK9aXN\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Learn Project Management\",\"col\":3}},{\"id\":\"LcAiEYN0re\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"oGhjvYjfv-\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"TdsgJyG3EI\",\"type\":\"card\",\"data\":{\"card_name\":\"Projects\",\"col\":3}},{\"id\":\"nIc0iyvf1T\",\"type\":\"card\",\"data\":{\"card_name\":\"Time Tracking\",\"col\":3}},{\"id\":\"8G1if4jsQ7\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":3}},{\"id\":\"RMGp7dmXEZ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"3AMXWOm27A\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"easter_egg\",\"col\":12}}]",
- "creation": "2025-01-16 15:57:00.873648",
+ "creation": "2025-01-17 15:21:12.525898",
  "custom_blocks": [
   {
    "custom_block_name": "easter_egg",
@@ -127,7 +127,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-01-16 16:03:15.817187",
+ "modified": "2025-01-17 15:23:30.825782",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Project Management",
@@ -154,33 +154,8 @@
  "public": 1,
  "quick_lists": [],
  "restrict_to_domain": "",
- "roles": [
-  {
-   "role": "Projects Manager"
-  },
-  {
-   "role": "Projects User"
-  },
-  {
-   "role": "First Approver"
-  },
-  {
-   "role": "Final Approver"
-  },
-  {
-   "role": "Director"
-  },
-  {
-   "role": "Board Director"
-  },
-  {
-   "role": "Executive Director"
-  },
-  {
-   "role": "System Manager"
-  }
- ],
- "sequence_id": 11.0,
+ "roles": [],
+ "sequence_id": 18.0,
  "shortcuts": [
   {
    "color": "Grey",

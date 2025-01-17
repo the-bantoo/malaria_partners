@@ -10,7 +10,7 @@
   }
  ],
  "content": "[{\"id\":\"tjRVtRE27l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Projects\",\"col\":3}},{\"id\":\"f_7JXHSvCR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ongoing Project Activities\",\"col\":3}},{\"id\":\"ruo_JtpnT7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Late Project Activities\",\"col\":3}},{\"id\":\"OtdsYeH73X\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Activities\",\"col\":3}},{\"id\":\"_Z9EwuG4uR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL VOLUNTEERS\",\"col\":6}},{\"id\":\"Fvuo1MFVDE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"aJX8K8Elxp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Payment Requisition Approvals\",\"col\":6}},{\"id\":\"ZUiZ4V_0H3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Supported Communities\",\"col\":6}},{\"id\":\"L8ovYr0Uil\",\"type\":\"paragraph\",\"data\":{\"text\":\"Quick Actions\",\"col\":12}},{\"id\":\"wHWe4LHbzs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Payment Requisition\",\"col\":3}},{\"id\":\"EOWQCbvZMt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Manage Volunteers\",\"col\":3}},{\"id\":\"lRe7YTnqzR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Todo Board\",\"col\":3}},{\"id\":\"fQwdAtfDEn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Board\",\"col\":3}},{\"id\":\"shDDzkut_t\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"NRzRpU-nUB\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"made in zambia\",\"col\":12}}]",
- "creation": "2025-01-16 15:57:01.223333",
+ "creation": "2025-01-17 15:21:12.886918",
  "custom_blocks": [
   {
    "custom_block_name": "made in zambia",
@@ -27,7 +27,7 @@
  "is_hidden": 0,
  "label": "Malaria Partners Dashboard",
  "links": [],
- "modified": "2025-01-16 16:03:13.501779",
+ "modified": "2025-01-17 15:22:56.682582",
  "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Malaria Partners Dashboard",
@@ -57,35 +57,7 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [
-  {
-   "role": "Employee"
-  },
-  {
-   "role": "System Manager"
-  },
-  {
-   "role": "Projects User"
-  },
-  {
-   "role": "Board Director"
-  },
-  {
-   "role": "Director"
-  },
-  {
-   "role": "First Approver"
-  },
-  {
-   "role": "Final Approver"
-  },
-  {
-   "role": "Executive Director"
-  },
-  {
-   "role": "Projects Manager"
-  }
- ],
+ "roles": [],
  "sequence_id": 3.0,
  "shortcuts": [
   {

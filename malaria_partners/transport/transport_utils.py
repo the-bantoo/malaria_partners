@@ -126,7 +126,7 @@ def send_compliance_reminders():
         return
 
     vehicles, due_date = get_due_vehicles()
-    if not due_date:
+    if not due_date or not vehicles:
         return
 
     due_date = frappe.utils.getdate(due_date)

@@ -7,4 +7,6 @@ from frappe.model.document import Document
 
 class VolunteerProfile(Document):
 	def validate(self):
-		self.full_name = f"{self.first_name} {self.last_name}"
+		if not self.full_name:
+			if f"{self.first_name} {self.last_name}" != self.full_name:
+				self.full_name = f"{self.first_name} {self.last_name}"

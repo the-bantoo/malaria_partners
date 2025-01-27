@@ -24,7 +24,9 @@ def get_data(filters):
         
     conditions_sql = " AND ".join(conditions)
     if conditions_sql:
-        conditions_sql = "WHERE " + conditions_sql
+        conditions_sql = "WHERE " + conditions_sql + "AND vl.docstatus=1"
+    else:
+        conditions_sql = "WHERE vl.docstatus=1"
 
     group_by_field = filters.get('group_by')
     group_by_sql = ""

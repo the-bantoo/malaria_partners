@@ -1,9 +1,10 @@
 # Copyright (c) 2024, Fabric and contributors
 # For license information, please see license.txt
 
-# import frappe
+import frappe
 from frappe.model.document import Document
 
 
 class VolunteerProfile(Document):
-	pass
+	def validate(self):
+		self.full_name = f"{self.first_name} {self.last_name}"

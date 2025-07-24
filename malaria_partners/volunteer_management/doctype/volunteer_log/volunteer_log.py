@@ -37,7 +37,7 @@ class VolunteerLog(Document):
             return
         if self.days_spent:
             settings = frappe.get_doc("Volunteer Settings", "Volunteer Settings")     
-            calculate_days_spent = self.days_spent * settings.standard_work_hours * 60 * 60 # in seconds
+            calculate_days_spent = self.days_spent * settings.standard_work_hours
 
             if self.days_spent != calculate_days_spent:
-                self.time_spent = calculate_days_spent
+                self.volunteer_time = calculate_days_spent

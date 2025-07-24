@@ -4,3 +4,4 @@
 
 [post_model_sync]
 # Patches added in this section will be executed after doctypes are migrated
+malaria_partners.patches.2025-07-24_convert_volunteer_log_duration_to_hours

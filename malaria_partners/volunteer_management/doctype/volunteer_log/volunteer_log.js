@@ -27,7 +27,7 @@ function auto_calculate_time_spent(frm) {
         method: "calculate_time_spent",
         doc: frm.doc,
         callback: function (r) {
-            frm.refresh_field("time_spent");
+            frm.refresh_field("volunteer_time");
         }
     })
 }
@@ -49,6 +49,7 @@ function set_days_spent(frm){
         doc: frm.doc,
         callback: function (r) {
             frm.refresh_field("days_spent");
+            auto_calculate_time_spent(frm);
         }
     });
 }

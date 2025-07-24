@@ -27,7 +27,7 @@
   "end_date",
   "column_break_fzgi",
   "days_spent",
-  "time_spent",
+  "volunteer_time",
   "manually_set_time_spent",
   "section_break_uzax",
   "amended_from"
@@ -63,7 +63,7 @@
    "fieldtype": "Column Break"
   },
   {
-   "description": "Selects from project tasks",
+   "description": "Based on project tasks",
    "fieldname": "activity_supported",
    "fieldtype": "Link",
    "in_list_view": 1,
@@ -136,6 +136,7 @@
    "label": "Voluntary Activity Session"
   },
   {
+   "default": "Today",
    "fieldname": "start_date",
    "fieldtype": "Date",
    "label": "Voluntary Session Start Date",
@@ -150,14 +151,6 @@
   {
    "fieldname": "column_break_fzgi",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "time_spent",
-   "fieldtype": "Duration",
-   "label": "Total Time Spent",
-   "read_only": 1,
-   "read_only_depends_on": "eval: doc.manually_set_time_spent === 0;",
-   "reqd": 1
   },
   {
    "fieldname": "section_break_uzax",
@@ -193,13 +186,21 @@
    "fieldtype": "Int",
    "label": "Days Spent",
    "reqd": 1
+  },
+  {
+   "fieldname": "volunteer_time",
+   "fieldtype": "Int",
+   "label": "Total Time Spent",
+   "read_only": 1,
+   "read_only_depends_on": "eval: doc.manually_set_time_spent === 0;",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-27 18:45:32.357488",
+ "modified": "2025-07-24 15:06:50.796061",
  "modified_by": "Administrator",
  "module": "Volunteer Management",
  "name": "Volunteer Log",

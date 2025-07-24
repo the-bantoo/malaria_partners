@@ -9,8 +9,8 @@
    "label": "Payment Requisition Approvals"
   }
  ],
- "content": "[{\"id\":\"tjRVtRE27l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Projects\",\"col\":3}},{\"id\":\"f_7JXHSvCR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ongoing Project Activities\",\"col\":3}},{\"id\":\"ruo_JtpnT7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Late Project Activities\",\"col\":3}},{\"id\":\"OtdsYeH73X\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Activities\",\"col\":3}},{\"id\":\"_Z9EwuG4uR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL VOLUNTEERS\",\"col\":6}},{\"id\":\"Fvuo1MFVDE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"aJX8K8Elxp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Payment Requisition Approvals\",\"col\":6}},{\"id\":\"ZUiZ4V_0H3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Supported Communities\",\"col\":6}},{\"id\":\"L8ovYr0Uil\",\"type\":\"paragraph\",\"data\":{\"text\":\"Quick Actions\",\"col\":12}},{\"id\":\"wHWe4LHbzs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Payment Requisition\",\"col\":3}},{\"id\":\"EOWQCbvZMt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Manage Volunteers\",\"col\":3}},{\"id\":\"lRe7YTnqzR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Todo Board\",\"col\":3}},{\"id\":\"fQwdAtfDEn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Board\",\"col\":3}},{\"id\":\"shDDzkut_t\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"FOYmHm6D69\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Facilitator Agreement\",\"col\":3}},{\"id\":\"Fv01eYAtTF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Travel Authorization Request\",\"col\":3}},{\"id\":\"jbLVXtXphw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fuel Request\",\"col\":3}},{\"id\":\"NRzRpU-nUB\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"made in zambia\",\"col\":12}}]",
- "creation": "2025-06-24 13:13:10.252899",
+ "content": "[{\"id\":\"tjRVtRE27l\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Active Projects\",\"col\":3}},{\"id\":\"f_7JXHSvCR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Ongoing Project Activities\",\"col\":3}},{\"id\":\"ruo_JtpnT7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Late Project Activities\",\"col\":3}},{\"id\":\"OtdsYeH73X\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Activities\",\"col\":3}},{\"id\":\"_Z9EwuG4uR\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"TOTAL VOLUNTEERS\",\"col\":6}},{\"id\":\"Fvuo1MFVDE\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"aJX8K8Elxp\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Payment Requisition Approvals\",\"col\":6}},{\"id\":\"ZUiZ4V_0H3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Volunteer Supported Communities\",\"col\":6}},{\"id\":\"L8ovYr0Uil\",\"type\":\"paragraph\",\"data\":{\"text\":\"Quick Actions\",\"col\":12}},{\"id\":\"wHWe4LHbzs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Payment Requisition\",\"col\":3}},{\"id\":\"EOWQCbvZMt\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Manage Volunteers\",\"col\":3}},{\"id\":\"lRe7YTnqzR\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Todo Board\",\"col\":3}},{\"id\":\"fQwdAtfDEn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Project Board\",\"col\":3}},{\"id\":\"shDDzkut_t\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"NRzRpU-nUB\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"made in zambia\",\"col\":12}}]",
+ "creation": "2025-07-24 15:21:38.934463",
  "custom_blocks": [
   {
    "custom_block_name": "made in zambia",
@@ -22,13 +22,13 @@
  "for_user": "",
  "hide_custom": 0,
  "icon": "non-profit",
- "idx": 1,
+ "idx": 0,
  "indicator_color": "",
  "is_hidden": 0,
  "label": "Malaria Partners Dashboard",
  "links": [],
- "modified": "2025-07-15 17:23:52.281678",
- "modified_by": "luckychisanga37@gmail.com",
+ "modified": "2025-07-24 15:24:27.006608",
+ "modified_by": "Administrator",
  "module": "Malaria Partners",
  "name": "Malaria Partners Dashboard",
  "number_cards": [
@@ -86,38 +86,14 @@
    "role": "Projects Manager"
   }
  ],
- "sequence_id": 3.0,
+ "sequence_id": 2.0,
  "shortcuts": [
-  {
-   "color": "Cyan",
-   "doc_view": "List",
-   "label": "Facilitator Agreement",
-   "link_to": "facilitator agreement",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Fuel Request",
-   "link_to": "Fuel Request",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
   {
    "color": "Blue",
    "doc_view": "Kanban",
    "kanban_board": "Project Board",
    "label": "Project Board",
    "link_to": "Task",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "List",
-   "label": "Travel Authorization Request",
-   "link_to": "Travel Authorization Request",
    "stats_filter": "[]",
    "type": "DocType"
   },

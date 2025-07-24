@@ -10,7 +10,7 @@
   }
  ],
  "content": "[{\"id\":\"s_NV9LVONy\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Transport Activity\",\"col\":6}},{\"id\":\"ggCBVe9II6\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Fuel Consumption\",\"col\":6}},{\"id\":\"VinrYK2p3K\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wtKKo5Ym7g\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Driver Log\",\"col\":3}},{\"id\":\"aHsbGC5NHZ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wVah1bDwo4\",\"type\":\"card\",\"data\":{\"card_name\":\"Records\",\"col\":6}},{\"id\":\"SIMEzqWTEu\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":6}}]",
- "creation": "2025-01-17 15:21:12.707398",
+ "creation": "2025-06-24 13:13:10.059571",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -81,8 +81,8 @@
    "type": "Link"
   }
  ],
- "modified": "2025-01-17 15:23:13.468092",
- "modified_by": "Administrator",
+ "modified": "2025-07-15 12:45:37.719780",
+ "modified_by": "luckychisanga37@gmail.com",
  "module": "Malaria Partners",
  "name": "Transport",
  "number_cards": [],
@@ -90,7 +90,20 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [],
+ "roles": [
+  {
+   "role": "Fleet Manager"
+  },
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "Projects Manager"
+  }
+ ],
  "sequence_id": 32.0,
  "shortcuts": [
   {
@@ -100,6 +113,12 @@
    "label": "New Driver Log",
    "link_to": "Driver Log",
    "stats_filter": "[[\"Driver Log\",\"docstatus\",\"=\",\"1\",false]]",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "New",
+   "label": "New Travel Request",
+   "link_to": "Travel Authorization Request",
    "type": "DocType"
   }
  ],
